@@ -1,0 +1,13 @@
+[33mtag 1.0.2[m
+Tagger: A00233642 <84159018+A00233642@users.noreply.github.com>
+Date:   Fri Nov 11 05:27:17 2022 -0500
+
+This is a new tag
+
+[33mcommit e15bbc0af6e6413e17881ca7723e4719b166885e[m[33m ([m[1;36mHEAD -> [m[1;32mfear/scanner[m[33m, [m[1;33mtag: show[m[33m, [m[1;33mtag: 1.0.2[m[33m, [m[1;31morigin/fear/scanner[m[33m)[m
+Merge: ed21c48 6ab81ce
+Author: A00233642 <84159018+A00233642@users.noreply.github.com>
+Date:   Thu Nov 10 21:51:10 2022 -0500
+
+    Merge branch 'fear/scanner' of https://github.com/A00233642/learning-scripts into fear/scanner
+
