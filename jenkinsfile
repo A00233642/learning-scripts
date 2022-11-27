@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+    tools{
+        maven 'm386'
+        jdk 'jdk11'
+    }
+    environment{
+            COMPANY_CODE='PRAGA-123'
+    }
+
+     triggers{
+            pollSCM('H */4 * * 1-5')
+            cron('H */4 * * 1-5')
+        } 
+    
+    stages{
+            
+        stage ('complie'){
+                steps{
+                    sh 'echo compile'
+                }
+        }
+         
+      
+        stage ('Test'){
+                steps{
+                    sh 'echo test'
+                }   
+
+       
+
+
+        }
+
+    }
+        
+}
