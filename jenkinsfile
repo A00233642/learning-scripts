@@ -20,7 +20,12 @@ pipeline {
         stage ('Test'){
                 steps{
                     sh 'echo test'
-                }                
+                }    
+        triggers{
+            pollSCM('H */4 * * 1-5')
+            cron('H */4 * * 1-5')
+        } 
+
 
         }
 
