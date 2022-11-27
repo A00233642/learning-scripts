@@ -1,0 +1,27 @@
+pipeline{
+    agent any
+    tools{
+        maven 'm386'
+        jdk 'jdk11'
+        }
+        environment{
+            COMPANY_CODE='PRAGA-123'
+        }
+         stages{
+            stage ('complie'){
+                steps{
+                    sh 'echo compile'
+                }
+            }
+         
+          stages{
+            stage ('Test'){
+                steps{
+                    sh 'echo test'
+                }                
+
+        }
+
+         }
+        
+         }
