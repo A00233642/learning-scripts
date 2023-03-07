@@ -1,4 +1,4 @@
-apiVersion: v3
+apiVersion: v6
 kind: Pod
 metadata:
   name: annotations-demo
